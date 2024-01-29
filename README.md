@@ -1,2 +1,1 @@
-# Events
-Contracts: Event, EventTarget, EventEmitter
+# Contracts: Event, EventTarget, EventEmitter
