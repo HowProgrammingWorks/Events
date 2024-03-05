@@ -1,7 +1,7 @@
 'use strict';
 
 // Node.js v19.0.0
-// or v18.7.0, v16.17.0 begind --experimental-global-customevent
+// or v18.7.0, v16.17.0 behind --experimental-global-customevent
 
 const target = new EventTarget();
 
