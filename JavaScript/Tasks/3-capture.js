@@ -5,7 +5,7 @@
 
 const EventEmitter = require('node:events');
 
-const purchase = new EventEmitter({ captureRejections: true });
+const purchase = new EventEmitter();
 
 const electronics = [
   { name: 'Laptop', price: 1500 },

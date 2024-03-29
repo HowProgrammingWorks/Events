@@ -2,6 +2,8 @@
 
 // Task: prevent termination on error and fix code
 // to prevent withdraw more than given limit
+// Add 'buy' event handler
+// Add 'done' event handler and emit it after iteration
 
 const EventEmitter = require('node:events');
 
