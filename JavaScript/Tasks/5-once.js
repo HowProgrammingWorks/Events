@@ -3,7 +3,7 @@
 // Task: why do we receive array in array as a `result`?
 // Fix code to receive single array in `result`.
 // Compare `events.once` with `EventEmitter.prototype.once`
-// and swap in following example:
+// and swap them in the following example:
 
 const { EventEmitter, once } = require('node:events');
 
