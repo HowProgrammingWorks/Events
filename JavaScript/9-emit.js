@@ -1,4 +1,4 @@
-'use stict';
+'use strict';
 
 const EventEmitter = require('node:events');
 const { setTimeout } = require('node:timers/promises');

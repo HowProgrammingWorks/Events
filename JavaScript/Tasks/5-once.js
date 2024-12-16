@@ -28,6 +28,4 @@ application.on('buy', (items) => {
   console.log(result);
 })();
 
-application
-  .once('error', console.error)
-  .emit('buy', electronics);
+application.once('error', console.error).emit('buy', electronics);

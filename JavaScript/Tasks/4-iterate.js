@@ -19,4 +19,3 @@ console.log({ iterator });
 for (const item of electronics) {
   purchase.emit('add', item);
 }
-
