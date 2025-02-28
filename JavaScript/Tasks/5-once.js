@@ -23,9 +23,11 @@ application.on('buy', (items) => {
   }
 });
 
-(async () => {
+const main = async () => {
   const result = await once(application, 'purchase');
   console.log(result);
-})();
+};
+
+main();
 
 application.once('error', console.error).emit('buy', electronics);
